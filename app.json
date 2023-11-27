@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "HT_Yeu_Cau",
+    "slug": "HT_Yeu_Cau",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon_mes.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.biztanker.HT_Yeu_Cau"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "713764cb-1007-46b3-8d2e-6b2e533f523b"
+      }
+    }
+  }
+}
