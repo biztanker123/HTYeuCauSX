@@ -1,0 +1,15 @@
+workflows:
+  main:
+    name: Main Workflow
+    environment:
+      vars:
+        # Các biến môi trường (nếu có)
+    scripts:
+      # Các bước để build ứng dụng, ví dụ: 
+      - name: Install dependencies
+        script: |
+          yarn install
+      - name: Build APK
+        script: |
+          expo build:android
+      # Các bước khác cần thiết cho quá trình build
